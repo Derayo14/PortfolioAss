@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+}
+header{
+display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    background-color: purple;
+    color: aliceblue;
+    align-items: baseline;
+
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+  
+
+}
+header a:hover{
+    color: white;
+}
+main{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main img{
+    width: 10%;
+    border-radius: 50%;
+}
+span{
+    color: purple;
+}
+section{
+    padding-top: 4em;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: purple;
+}
+section img{
+    width: 80%;
+    border-radius: 5px;
+}
+.portfolioGallery{
+    background-color: rgba(128, 0, 128, 0.641);
+    margin: 2em;
+    border-radius: 5px;
+    padding: 2em;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding-top: 2em;
+    background-color: rgba(255, 255, 255, 0.167);
+    margin: 1em;
+}
+.gallery a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
